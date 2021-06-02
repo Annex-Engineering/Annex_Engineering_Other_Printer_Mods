@@ -10,13 +10,13 @@ Currently the magprobe is a lot smaller, completely solderless and has macro's f
 Testing has shown the best switch for repeatability is the Omron D2F-5. You can also order the 5L model and remove the lever. A high temp substitute can be the Honeywell 411SX21-T. Downsides are is that its a lot more expensive and performs the same or worse. A genuine Omron D2F-5 should get you easily 1000H of use. Replacing the magprobe in your machine is a matter of seconds.
 
 ## Drop in replacement for PL-08N2 and similar
-If you want to test the magprobe quickly there is a ![drop in replacement](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Quickdraw_-_Magnetic_Microswitch_Z_Probe/STLs/direct_microswitch_replacement_inductive.STL) for the PL-08N2 and similar. We recommend to always use the carriages with baked in magprobe support. The magprobe will be closer and aligned to the nozzle, total weight lower, magnets further away from the buildplate and often comes with a bigger hotend cooling exhaust.
+If you want to test the magprobe quickly there is a [drop in replacement](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Quickdraw_-_Magnetic_Microswitch_Z_Probe/STLs/direct_microswitch_replacement_inductive.STL) for the PL-08N2 and similar. We recommend to always use the carriages with baked in magprobe support. The magprobe will be closer and aligned to the nozzle, total weight lower, magnets further away from the buildplate and often comes with a bigger hotend cooling exhaust.
 
 ![picture](Images/Drop_in_replacement.jpg)
 ![picture](Images/Drop_in_replacement_2.jpg)
 
 ## Software
-It is recommended to run Klipper (https://github.com/KevinOConnor/klipper). You can use the ![macro](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Quickdraw_-_Magnetic_Microswitch_Z_Probe/Klipper_Macros/dockable_probe_macros.cfg) or ![integrated klipper module](https://github.com/mental405/klipper/blob/work-annex-probe/docs/Annexed_Probe.md).
+It is recommended to run Klipper (https://github.com/KevinOConnor/klipper). You can use the [macro](https://github.com/Annex-Engineering/Annex-Engineering_Other_Printer_Mods/blob/master/All_Printers/Quickdraw_-_Magnetic_Microswitch_Z_Probe/Klipper_Macros/dockable_probe_macros.cfg) or [integrated klipper module](https://github.com/mental405/klipper/blob/work-annex-probe/docs/Annexed_Probe.md).
 
 ## General installation instructions
 To assemble the magprobe push in the 2 6x3mm magnets against the pin of the switch. (Use the Omron D2F-5 or D2F 5L with lever removed. No substitutes) 
